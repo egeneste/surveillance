@@ -6,6 +6,7 @@ from .views import *
 
 urlpatterns = [
     url(r'^$', index),
+    url(r'^region-uno/$', regionUno)
 ]
 
 if settings.DEBUG :
