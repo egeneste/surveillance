@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83e7a9f-cab0-4070-9a19-894bcdadf8c5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/compilerconfig.json.defaults" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/regiones/region-uno.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/pages/tables/temperature-table.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/interface/urls.py" afterPath="$PROJECT_DIR$/interface/urls.py" />
-      <change beforePath="$PROJECT_DIR$/interface/views.py" afterPath="$PROJECT_DIR$/interface/views.py" />
       <change beforePath="$PROJECT_DIR$/surveillance/settings.py" afterPath="$PROJECT_DIR$/surveillance/settings.py" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/region-cuatro.html" afterPath="$PROJECT_DIR$/templates/pages/regiones/region-cuatro.html" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/region-dos.html" afterPath="$PROJECT_DIR$/templates/pages/regiones/region-dos.html" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/region-tres.html" afterPath="$PROJECT_DIR$/templates/pages/regiones/region-tres.html" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/region_uno.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/region-uno.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +21,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/surveillance/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="564">
+              <caret line="143" column="1" lean-forward="false" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -350,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516615960356</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add digital ocean ip">
+      <created>1516674308602</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516674308602</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -405,7 +401,8 @@
     <MESSAGE value="add bootstrap template" />
     <MESSAGE value="add bootstrap template2" />
     <MESSAGE value="homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="homepage" />
+    <MESSAGE value="add digital ocean ip" />
+    <option name="LAST_COMMIT_MESSAGE" value="add digital ocean ip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -771,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/surveillance/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        <state relative-caret-position="564">
+          <caret line="143" column="1" lean-forward="false" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
           <folding />
         </state>
       </provider>
