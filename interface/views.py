@@ -1,10 +1,17 @@
 from django.shortcuts import render
-import static.pages.regiones
+
 # Create your views here.
+
 def index(request):
 
-    return render(request, 'home.html', {})
+    return render(request, 'index.html', {})
+
 
 def regionUno(request):
 
-    return render(request, 'pages/region-uno.html', {})
+    return render(request, 'pages/regiones/region-uno.html', {'don': 45})
+
+
+def tableTemperatura(request):
+
+    return render(request, 'pages/tables/temperature-table.html', {})

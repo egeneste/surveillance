@@ -6,7 +6,8 @@ from .views import *
 
 urlpatterns = [
     url(r'^$', index),
-    url(r'^region-uno/$', regionUno)
+    url(r'^region-uno/$', regionUno),
+    url(r'^temperatura/$', tableTemperatura)
 ]
 
 if settings.DEBUG :
