@@ -6,8 +6,12 @@ from .views import *
 
 urlpatterns = [
     url(r'^$', index),
-    url(r'region-uno/$', regionUno),
-    url(r'temperatura/$', tableTemperatura)
+    url(r'^region-uno/$', regionUno),
+    url(r'^temperatura/$', tableTemperatura),
+    url(r'^humedad/$', tableHumedad),
+    url(r'^sonido/$', tableSonido),
+    url(r'^co2/$', tableCO2),
+    url(r'^chart/temperatura/$', chartTemperatura)
 ]
 
 if settings.DEBUG :

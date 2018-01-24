@@ -15,3 +15,19 @@ def regionUno(request):
 def tableTemperatura(request):
 
     return render(request, 'pages/tables/temperature-table.html', {})
+
+def tableHumedad(request):
+
+    return render(request, 'pages/tables/temperature-table.html', {})
+
+def tableSonido(request):
+
+    return render(request, 'pages/tables/temperature-table.html', {})
+
+def tableCO2(request):
+
+    return render(request, 'pages/tables/temperature-table.html', {})
+
+def chartTemperatura(request):
+
+    return render(request, 'pages/charts/chart-temperatura.html', {})
